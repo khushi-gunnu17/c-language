@@ -11,8 +11,8 @@ int main() {
     scanf("%d", &n);
 
     for(int i=1 ; i<=n ; i++) {
-        if(n%2 != 0) {
-            fprintf(fptr, "%d\t", i);
+        if(i % 2 != 0) {
+            fprintf(fptr, "%d\n", i);
         } 
     }
 

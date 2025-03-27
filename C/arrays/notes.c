@@ -4,7 +4,7 @@
 
 int main() {
     // int marks[3];
-    int marks[] = (2,3,4,5);
+    int marks[] = {2,3,4,5};
     // printf("english = ");
     // scanf("%d", &marks[0]);
 

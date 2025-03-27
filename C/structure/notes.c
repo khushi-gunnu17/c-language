@@ -33,7 +33,7 @@ int main() {
 
     // Initializing structures
     // struct Student s1 = {12, 9.56, "Lauren"};
-    // printf("Student roll= %d\n", s2.Roll);
+    // printf("Student roll= %d\n", s1.Roll);
 
     // Pointers to Structures
     // struct Student s1 = {12, 9.56, "Lauren"};

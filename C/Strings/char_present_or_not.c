@@ -5,11 +5,11 @@
 void isCharPresent(char str[], char ch) {
     for(int i=0 ; str[i]!= 0 ; i++) {
         if(str[i] == ch) {
-            printf("Charcater is present.");
+            printf("Character is present.");
             return;
         }
     }
-    printf("Charcater is NOT present.");
+    printf("Character is NOT present.");
 }
 
 int main() {

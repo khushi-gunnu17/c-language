@@ -51,14 +51,14 @@ int main() {
     printf("%f\n", 3.5 / 2 );
     */
 
-    // int a = (int) 1.99999999;        // implicit type conversion from doble to int is working here.
+    // int a = (int) 1.99999999;        // implicit type conversion from double to int is working here.
 
     // printf("%d\n", a);    
 
     // Operator Precedence
     // printf("%d\n", 4 + 9 * 10);
 
-    // printf("%d\n", 4 * 3 / 6 * 2 );         // Associativity (for same precedence)
+    // printf("%d\n", 4 * 3 / 6 * 2 );         // Associativity (for same precedence) from left to right calculation for the same precedence
 
     // printf("%d\n", 5 + 2 / 2 * 3);
 
@@ -75,4 +75,5 @@ int main() {
     
 
     return 0;
+    
 }

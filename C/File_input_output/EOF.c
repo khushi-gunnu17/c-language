@@ -10,7 +10,7 @@ int main() {
 
     while(ch != EOF) {
         printf("%c", ch);
-        char ch = fgetc(fptr);
+        ch = fgetc(fptr);
     }
 
     // for(int i = ch; ch<EOF; ch++) {

@@ -15,11 +15,12 @@ void printString(char arr[]) {
 }
 
 int main() {
-    char firstNmae[] = {'k', 'h', 'u', 's', 'h', 'i', '\0'};
+    
+    char firstName[] = {'k', 'h', 'u', 's', 'h', 'i', '\0'};
     char lastName[] = "Sharma";
     char fname[] = "Khushi Sharma";
 
-    printString(firstNmae);
+    printString(firstName);
     printf("\n");
     printString(lastName);
 
@@ -27,6 +28,7 @@ int main() {
     printf("Enter your name = ");
     scanf("%s\n", name);      // name is an array which is a pointer, so it doesn't need to be written with an ampersand.
     printf("Your name is %s\n", name);
+    // string automatically adds the null character at the end.
 
     // Scanf cannot input multi word strings with spaces.
     // Here, gets() and puts() come into picture.   
@@ -51,3 +53,12 @@ int main() {
 }
 
 // String Format Specifier = "%s";
+
+
+/*
+    String Functions
+    gets(str)  --->   Dangerous and outdated    (Input a string even multiword)
+    puts(str)  --->   output a string
+    fgets(str, n, file)  stops when n-1 chars input or new line is entered
+    stdin can be used in place of the file argument
+*/

@@ -7,7 +7,7 @@ int countLength(char arr[]) {
     for(int i=0; arr[i] != '\0' ; i++) {
         count++;
     }
-    printf("The length is = %d", count-1);          // or return count - 1;
+    printf("The length is = %d\n", count-1);          // or return count - 1;
 }
 
 int main() {
@@ -29,7 +29,7 @@ int main() {
         i++;
     }
     
-    str[i] = '\n';      // Null character doesn't automatically get added in %c
+    str[i] = '\0';      // Null character doesn't automatically get added in %c
     puts(str);
     return 0;
 }
